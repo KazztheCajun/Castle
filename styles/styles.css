@@ -1,0 +1,49 @@
+
+body
+{
+	background-color: rgb(161, 161, 152);
+	color: rgb(3.5,31.6,58);
+	max-width: 50%;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2
+{
+	border: 3px outset black;
+	background-color: rgb(126, 118, 118);
+	color: rgb(3.5,31.6,58);
+	padding: 10px;
+	font-family: 'Texturina', serif;
+}
+
+.puzzle
+{
+	border: 3px outset black;
+	background-color: rgb(128, 129, 136);
+	padding: 10px;
+	max-width: 17%;
+}
+
+.master
+{
+	font-family: 'Long Cang', cursive;
+	font-size: xx-large;
+}
+#win
+{
+	display: none;
+}
+
+#lose
+{
+	display: none;
+}
+
+input[type="checkbox"][id^="sb"] 
+{
+  	display: none;
+}
+input[type="button"][id="bigbutton"]
+{
+	display: none;
+}
